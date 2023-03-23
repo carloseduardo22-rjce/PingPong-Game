@@ -19,5 +19,5 @@ class Remo(Turtle):
     def desca(self):
         new_y = self.ycor() - 20
         # A função diminui a posição da minha raquete então a atualiza usando o método goto, isso faz com que
-        # a raquete se mova para cima da tela
+        # a raquete se mova para baixo da tela
         self.goto(self.xcor(), new_y)
